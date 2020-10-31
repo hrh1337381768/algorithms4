@@ -29,7 +29,7 @@ public class Ex31 {
         StdDraw.setPenRadius(0.01);
         for (int i = 0; i < N; i++) {
             for (int j = i + 1; j < N; j++) {
-                // bernoulli: true with probability p
+                // bernoulli: return true with probability p
                 if (StdRandom.bernoulli(p)) {
                     StdDraw.line(points[i][0], points[i][1], points[j][0], points[j][1]);
                 }

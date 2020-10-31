@@ -15,6 +15,7 @@ public class Ex24 {
 //    Ex25: a=kb+r => r=a-kb => r=a1d-kb1d=(a1-kb1)d
 //          a=a1d, b=b1d, d is a common divisor of a and b
 //          So: gcd(a, b) = gcd(b, a % b)
+
     public static int euclid(int p, int q) {
 //        System.out.println("p = " + p + ", q = " + q);
         if (q == 0) return p;
